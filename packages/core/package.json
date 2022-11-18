@@ -1,6 +1,6 @@
 {
   "name": "@onions/core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -25,5 +25,5 @@
   },
   "author": "tiepnt",
   "description": "",
-  "gitHead": "ab6acd81e8bc94d6358e87de05112ce5cfebda83"
+  "gitHead": "1c8ba9e18015ad60732c2808959c11da04e39217"
 }
