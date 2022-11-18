@@ -1,6 +1,6 @@
 {
   "name": "@tiep.nt/api",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -27,5 +27,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "efcf0a0e789257f1852137bcef5d0ec1c5277fd0"
+  "gitHead": "fe1e07894ce2a4a1671f34f0b58310a62ecc3bb1"
 }
