@@ -2119,9 +2119,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@onions-ui/core@workspace:packages/core":
+"@onions-ui/api@workspace:packages/api":
   version: 0.0.0-use.local
-  resolution: "@onions-ui/core@workspace:packages/core"
+  resolution: "@onions-ui/api@workspace:packages/api"
   dependencies:
     "@babel/core": ^7.16.0
     "@emotion/cache": 11.5.0
@@ -2136,9 +2136,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@onions/api@workspace:packages/api":
+"@onions-ui/core@workspace:packages/core":
   version: 0.0.0-use.local
-  resolution: "@onions/api@workspace:packages/api"
+  resolution: "@onions-ui/core@workspace:packages/core"
   dependencies:
     "@babel/core": ^7.16.0
     "@emotion/cache": 11.5.0
