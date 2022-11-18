@@ -1,5 +1,5 @@
 {
-  "name": "onions-ui",
+  "name": "@onions-ui/root",
   "packageManager": "yarn@3.2.4",
   "private": true,
   "workspaces": {
