@@ -1,7 +1,6 @@
 {
   "name": "onions",
   "packageManager": "yarn@3.2.4",
-  "private": true,
   "workspaces": {
     "packages": [
       "packages/*"
@@ -34,6 +33,7 @@
     "react": "^18.2.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com", 
+    "access": "public"
   }
 }
