@@ -1,4 +1,4 @@
-import { Box, Button, Flex } from "@onions/core";
+import { Box, Button, Flex } from "@onions-ui/core";
 import React from "react";
 
 const ButtonPage = () => {

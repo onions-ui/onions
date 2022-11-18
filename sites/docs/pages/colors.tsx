@@ -1,5 +1,5 @@
 import React from "react";
-import { useTheme, Flex, Box } from "@onions/core";
+import { useTheme, Flex, Box } from "@onions-ui/core";
 
 const ColorPage = () => {
   const { colors } = useTheme();

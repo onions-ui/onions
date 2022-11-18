@@ -75,9 +75,6 @@ export const shadeColors = <T extends string>(
   key: T,
   value?: string
 ): ColorVariant<T> => {
-  if (value) {
-    return {};
-  }
   const colors = {
     [key]: value,
   };

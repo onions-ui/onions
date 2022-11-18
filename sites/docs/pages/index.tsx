@@ -1,4 +1,4 @@
-import { Button, Box } from "@onions/core";
+import { Button, Box } from "@onions-ui/core";
 
 export default function Home() {
   return (

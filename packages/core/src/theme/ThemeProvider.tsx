@@ -13,10 +13,9 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({
 }) => {
   const colors = {
     ...defaultTheme.colors,
-    ...(theme?.colors
-      ? generateThemeColors({ ...themeColors, ...theme?.colors })
-      : {}),
+    ...generateThemeColors({ ...themeColors, ...(theme?.colors || {}) }),
   };
+  console.log({});
 
   const emotionTheme: Theme = {
     ...defaultTheme,
