@@ -1,11 +1,11 @@
-import { Theme } from "@emotion/react";
+import { OnionTheme } from "../theme";
 import { ThemeColor } from "../theme/colors";
 import { Spaces } from "../theme/spaces";
 
-export type Color = keyof Theme["colors"];
-export type Radii = keyof Theme["radius"];
-export type Space = keyof Theme["spaces"];
-export type FontSize = keyof Theme["fontSizes"];
+export type Color = keyof OnionTheme["colors"];
+export type Radii = keyof OnionTheme["radius"];
+export type Space = keyof OnionTheme["spaces"];
+export type FontSize = keyof OnionTheme["fontSizes"];
 
 export interface BaseProps {
   //color
@@ -33,7 +33,7 @@ export interface BaseProps {
   borderRadius?: Radii;
 }
 
-export const CommonStyles = (props: BaseProps & { theme: Theme }) => {
+export const CommonStyles = (props: BaseProps & { theme: OnionTheme }) => {
   const { theme } = props;
   return `
     ${getDimension("width", props.width)}
@@ -82,7 +82,7 @@ export const getColor = (key, value?: Color | string, colors?: ThemeColor) => {
 export const getRadii = (
   key,
   value?: Radii | string | number,
-  radius?: Theme["radius"]
+  radius?: OnionTheme["radius"]
 ) => {
   if (!value) return "";
   if (typeof value === "number") return `${key}: ${value}px;`;

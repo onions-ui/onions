@@ -27,7 +27,7 @@ export const defaultTheme = {
   radius: { ...radii },
 };
 
-export type OnionTheme = Partial<typeof defaultTheme>;
+export type OnionTheme = typeof defaultTheme;
 
 export type CustomTheme = {
   colors?: ThemeColor;
