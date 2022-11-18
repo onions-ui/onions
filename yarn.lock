@@ -2119,40 +2119,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@onions-ui/api@workspace:packages/api":
-  version: 0.0.0-use.local
-  resolution: "@onions-ui/api@workspace:packages/api"
-  dependencies:
-    "@babel/core": ^7.16.0
-    "@emotion/cache": 11.5.0
-    "@emotion/react": 11.5.0
-    "@emotion/styled": 11.3.0
-    "@rollup/plugin-node-resolve": ^13.0.6
-    "@types/react": ^18.0.24
-    react: ^18.2.0
-    rollup: ^2.60.2
-    rollup-plugin-peer-deps-external: ^2.2.4
-    rollup-plugin-typescript2: ^0.31.1
-  languageName: unknown
-  linkType: soft
-
-"@onions-ui/core@workspace:packages/core":
-  version: 0.0.0-use.local
-  resolution: "@onions-ui/core@workspace:packages/core"
-  dependencies:
-    "@babel/core": ^7.16.0
-    "@emotion/cache": 11.5.0
-    "@emotion/react": 11.5.0
-    "@emotion/styled": 11.3.0
-    "@rollup/plugin-node-resolve": ^13.0.6
-    "@types/react": ^18.0.24
-    react: ^18.2.0
-    rollup: ^2.60.2
-    rollup-plugin-peer-deps-external: ^2.2.4
-    rollup-plugin-typescript2: ^0.31.1
-  languageName: unknown
-  linkType: soft
-
 "@onions-ui/root@workspace:.":
   version: 0.0.0-use.local
   resolution: "@onions-ui/root@workspace:."
@@ -2261,6 +2227,40 @@ __metadata:
   checksum: 7d3aef54e17c1073101cb64d953157c19d62a40e261a30923fa1ee337b049c5f29cc47b1f0c477880f42b5659848ba9ab897607ac8ea4acd5c30ddcfac57fca6
   languageName: node
   linkType: hard
+
+"@tiep.nt/api@workspace:packages/api":
+  version: 0.0.0-use.local
+  resolution: "@tiep.nt/api@workspace:packages/api"
+  dependencies:
+    "@babel/core": ^7.16.0
+    "@emotion/cache": 11.5.0
+    "@emotion/react": 11.5.0
+    "@emotion/styled": 11.3.0
+    "@rollup/plugin-node-resolve": ^13.0.6
+    "@types/react": ^18.0.24
+    react: ^18.2.0
+    rollup: ^2.60.2
+    rollup-plugin-peer-deps-external: ^2.2.4
+    rollup-plugin-typescript2: ^0.31.1
+  languageName: unknown
+  linkType: soft
+
+"@tiep.nt/core@workspace:packages/core":
+  version: 0.0.0-use.local
+  resolution: "@tiep.nt/core@workspace:packages/core"
+  dependencies:
+    "@babel/core": ^7.16.0
+    "@emotion/cache": 11.5.0
+    "@emotion/react": 11.5.0
+    "@emotion/styled": 11.3.0
+    "@rollup/plugin-node-resolve": ^13.0.6
+    "@types/react": ^18.0.24
+    react: ^18.2.0
+    rollup: ^2.60.2
+    rollup-plugin-peer-deps-external: ^2.2.4
+    rollup-plugin-typescript2: ^0.31.1
+  languageName: unknown
+  linkType: soft
 
 "@tootallnate/once@npm:2":
   version: 2.0.0

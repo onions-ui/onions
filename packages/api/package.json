@@ -1,6 +1,6 @@
 {
-  "name": "@onions-ui/api",
-  "version": "0.0.11",
+  "name": "@tiep.nt/api",
+  "version": "0.0.12",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -27,5 +27,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "09b94d5d5211d5b6033430266ddab346c7387f08"
+  "gitHead": "efcf0a0e789257f1852137bcef5d0ec1c5277fd0"
 }
