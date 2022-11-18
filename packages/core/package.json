@@ -1,6 +1,6 @@
 {
   "name": "@onions/core",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -8,6 +8,9 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -25,5 +28,5 @@
   },
   "author": "tiepnt",
   "description": "",
-  "gitHead": "1c8ba9e18015ad60732c2808959c11da04e39217"
+  "gitHead": "a5a576917ec389274fb063afd9ad103ddf5954a0"
 }

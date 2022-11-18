@@ -2153,6 +2153,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@onions/icons@workspace:packages/icons":
+  version: 0.0.0-use.local
+  resolution: "@onions/icons@workspace:packages/icons"
+  languageName: unknown
+  linkType: soft
+
 "@parcel/watcher@npm:2.0.4":
   version: 2.0.4
   resolution: "@parcel/watcher@npm:2.0.4"
