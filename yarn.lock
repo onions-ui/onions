@@ -2150,6 +2150,7 @@ __metadata:
     rollup: ^2.60.2
     rollup-plugin-peer-deps-external: ^2.2.4
     rollup-plugin-typescript2: ^0.31.1
+    ts-lib: ^0.0.5
   languageName: unknown
   linkType: soft
 
@@ -8292,6 +8293,13 @@ __metadata:
   bin:
     ts-jest: cli.js
   checksum: 541e51776d367fa2279af47f75af94b03e0538f1839ea9983de0f4ad7f188002f6eb1fc72440651d96daa62d25a7bc679a129c14e6ef291277eea9346751d56b
+  languageName: node
+  linkType: hard
+
+"ts-lib@npm:^0.0.5":
+  version: 0.0.5
+  resolution: "ts-lib@npm:0.0.5"
+  checksum: eb01607bea4679e716bb6dc48008c15f024a4433244ee17ef11aaa62841184bcefad9bacd24c270a82bd8f3011058c1b0559d5a81370d739bba90d89c01ae3be
   languageName: node
   linkType: hard
 

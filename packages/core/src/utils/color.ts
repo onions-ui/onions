@@ -49,7 +49,7 @@ export interface RGBAColor {
 
 export const shadeAlphaColors = <T extends string>(
   key: T,
-  value: string
+  value?: string
 ): AlphaVariant<T> => {
   const colors = {
     [key]: value,
@@ -73,8 +73,11 @@ export const shadeAlphaColors = <T extends string>(
 
 export const shadeColors = <T extends string>(
   key: T,
-  value: string
+  value?: string
 ): ColorVariant<T> => {
+  if (value) {
+    return {};
+  }
   const colors = {
     [key]: value,
   };

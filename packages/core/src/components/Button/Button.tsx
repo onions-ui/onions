@@ -24,7 +24,7 @@ const BaseButton = styled("button")`
   border: none;
   position: relative;
   cursor: pointer;
-  border-radius: ${({ theme }) => theme.radius.r2};
+  border-radius: ${({ theme }) => theme.radius?.r2};
 `;
 
 export const StyledButton = styled(BaseButton)<ButtonProps>(
