@@ -1,6 +1,6 @@
 {
   "name": "@onions/api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -24,5 +24,5 @@
     "@emotion/styled": "11.3.0",
     "react": "^18.2.0"
   },
-  "gitHead": "05343e1c34f8d22ccffc898e13f2bff32a1da662"
+  "gitHead": "1813f255b09271285844728e33988d40f3c582d9"
 }
