@@ -2119,6 +2119,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@onions-ui/core@workspace:packages/core":
+  version: 0.0.0-use.local
+  resolution: "@onions-ui/core@workspace:packages/core"
+  dependencies:
+    "@babel/core": ^7.16.0
+    "@emotion/cache": 11.5.0
+    "@emotion/react": 11.5.0
+    "@emotion/styled": 11.3.0
+    "@rollup/plugin-node-resolve": ^13.0.6
+    "@types/react": ^18.0.24
+    react: ^18.2.0
+    rollup: ^2.60.2
+    rollup-plugin-peer-deps-external: ^2.2.4
+    rollup-plugin-typescript2: ^0.31.1
+  languageName: unknown
+  linkType: soft
+
 "@onions/api@workspace:packages/api":
   version: 0.0.0-use.local
   resolution: "@onions/api@workspace:packages/api"
@@ -2133,29 +2150,6 @@ __metadata:
     rollup: ^2.60.2
     rollup-plugin-peer-deps-external: ^2.2.4
     rollup-plugin-typescript2: ^0.31.1
-  languageName: unknown
-  linkType: soft
-
-"@onions/core@workspace:packages/core":
-  version: 0.0.0-use.local
-  resolution: "@onions/core@workspace:packages/core"
-  dependencies:
-    "@babel/core": ^7.16.0
-    "@emotion/cache": 11.5.0
-    "@emotion/react": 11.5.0
-    "@emotion/styled": 11.3.0
-    "@rollup/plugin-node-resolve": ^13.0.6
-    "@types/react": ^18.0.24
-    react: ^18.2.0
-    rollup: ^2.60.2
-    rollup-plugin-peer-deps-external: ^2.2.4
-    rollup-plugin-typescript2: ^0.31.1
-  languageName: unknown
-  linkType: soft
-
-"@onions/icons@workspace:packages/icons":
-  version: 0.0.0-use.local
-  resolution: "@onions/icons@workspace:packages/icons"
   languageName: unknown
   linkType: soft
 
@@ -6810,9 +6804,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"onions@workspace:.":
+"onions-ui@workspace:.":
   version: 0.0.0-use.local
-  resolution: "onions@workspace:."
+  resolution: "onions-ui@workspace:."
   dependencies:
     "@types/eslint": ^8
     "@types/jest": ^29.1.2

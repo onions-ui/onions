@@ -1,6 +1,6 @@
 {
   "name": "@onions/api",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -27,5 +27,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "2a7e4c8c1ef700289bcbbc2d8831c4d0d7cd849c"
+  "gitHead": "b7126e0fa7b4485c0f3ff04cf52910944b9bdec0"
 }
