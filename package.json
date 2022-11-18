@@ -27,7 +27,7 @@
   "scripts": {
     "lint": "eslint --ext .tsx,.ts --ignore-path .eslintignore --quiet .",
     "test": "jest",
-    "prepare": "yarn husky install",
+    "prepare": "yarn husky install && yarn build:packages",
     "build:packages": "yarn workspaces foreach -ptR --from '@onions/*' run build"
   },
   "dependencies": {
